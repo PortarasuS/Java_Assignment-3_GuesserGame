@@ -61,7 +61,7 @@ public class GuesserGame {
 		int randomval = (int)(Math.random()*10);
 		Guesser gsr = new Guesser();
 		//Scanner scan = new Scanner (System.in);
-		System.out.println("Hi, Guesser selected the value which is hidden , Please select player value (0 to 9) " );
+		System.out.println("Hi, Player -- Guesser selected the value which is hidden , Please select player value (0 to 9) " );
 		// int guesserValue = scan.nextInt();
 		gsr.setGuesserValue(randomval);
 		int gsrOut = gsr.getGuesserValue();
